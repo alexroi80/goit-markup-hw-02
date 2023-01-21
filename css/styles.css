@@ -12,6 +12,7 @@
   background-color: var(--background-color-main);
   font-family: 'Roboto', sans-serif;
   color: var(--color-main);
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -61,7 +62,7 @@
   height: 72px;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  
 }
 
 /* Studio page */
@@ -69,9 +70,8 @@
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 /* Hero */
@@ -89,23 +89,16 @@
 }
 .hero-button {
   background-color: var(--color-second);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  display: flex;
+  line-height: 1.5
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--background-color-main);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   cursor: pointer;
 }
 /* Section 1 */
-.section.feature {
-  width: 1128px;
-  height: 104px;
-}
+
 .feature-title {
   color: #ffffff;
 }
@@ -113,12 +106,10 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .feature-descr {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 /* Section 2 */
@@ -140,12 +131,9 @@
 .btn-active {
   background-color: var(--portfolio-btn-active);
   color: var(--background-color-main);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -157,8 +145,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -169,11 +155,9 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .project-item-type {
   color: var(--contacts-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
