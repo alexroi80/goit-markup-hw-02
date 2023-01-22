@@ -42,12 +42,20 @@
   line-height: 24px;
   color: var(--color-main);
 }
+.header-nav.link:hover, .header-nav.link:focus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--portfolio-btn-active);
+}
 .contacts.link {
   color: var(--contacts-color);
+  font-style: normal;
 }
 .contacts.link:hover,
 .contacts.link:focus {
-  color: var(--color-second);
+  color: var(--portfolio-btn-active);
 }
 /* Footer */
 .page-footer {
@@ -60,7 +68,6 @@
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  
 }
 
 /* Studio page */
@@ -95,6 +102,10 @@
   color: var(--background-color-main);
   cursor: pointer;
 }
+.hero-button:hover, .hero-button:focus {
+  background-color:var(--portfolio-btn-active)
+}
+
 /* Section 1 */
 
 .feature-title {
@@ -114,7 +125,7 @@
 
 /* Section 3 */
 .team {
-  background-color: var(--backgroung-section-last);
+  background-color: var(--background-color-secondary);
 }
 .team.list-item {
   background: var(--background-color-main);
@@ -126,9 +137,11 @@
 .section-title {
   color: var(--background-color-main);
 }
-.btn-active {
-  background-color: var(--portfolio-btn-active);
-  color: var(--background-color-main);
+
+.btn-filter {
+  background-color: var(--background-color-secondary);
+  color: var(--color-second);
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -136,10 +149,9 @@
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.btn-filter {
-  background-color: var(--background-color-secondary);
-  color: var(--color-second);
-  font-style: normal;
+.btn-filter:hover, .btn-filter:focus {
+  background-color: var(--portfolio-btn-active);
+  color: var(--background-color-main);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
